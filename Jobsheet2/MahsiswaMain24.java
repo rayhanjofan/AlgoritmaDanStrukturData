@@ -1,8 +1,9 @@
 package Jobsheet2;
 public class MahsiswaMain24 {
     public static void main(String[] args) {
-        
+
         Mahasiswa24 mhs1 = new Mahasiswa24();
+        
         mhs1.nama= "Muhammada Ali Farhan";
         mhs1.nim = "2241720171";
         mhs1.kelas = "SI 2J";
@@ -16,5 +17,7 @@ public class MahsiswaMain24 {
         Mahasiswa24 mhs2 = new Mahasiswa24("Annisa Nabila","2141720160", 3.25,"TI 2L");
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
+        Mahasiswa24 mhs3 = new Mahasiswa24 ("2024001", "Rayhan Jofan Halim", 3.48, "TI-1H");
+        mhs3.tampilkanInformasi();
     }
 }
